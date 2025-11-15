@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    border: solid 1px;
+    width: 330px;
+    position: fixed;
+    height: 100%;
+    background-color: rgb(114, 199, 170);
+    padding-top: 40px;
+    list-style: none;
+}
+#text1{
+    color: rgb(246, 43, 43);
+    font-size: 30px;
+    font-weight: bold;
+}
+#text2{
+    color: rgb(101, 14, 56);
+    font-size: 20px;
+    font-weight: bold;
+}
+ul li{
+    border: solid 1px;
+    height: 70px;
+    width: 260px;
+    margin-left: 40px;
+    background-color: burlywood;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+}
+ul li a{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}ul li:hover{
+    background-color: brown;
+}
+#Home{
+    border: solid 1px;
+    height: 725px;
+    background-color:rgba(245, 245, 149, 0.651) ;
+    padding-left: 335px;
+}
+#text3{
+    color: rgb(34, 55, 103);
+    font-size: 50px;
+}
+#text4{
+    color: green;
+    font-size: 40px;
+}
+#text5{
+    font-size: 20px;
+
+}
+#dt1{
+    height: 60px;
+    width: 200px;
+    background-color: rgb(50, 126, 193);
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#About{
+    border: solid 1px;
+    height: 725px;
+    background-color:rgb(111, 135, 88);
+    padding-left: 335px;
+}
+#AboutMe{
+    font-size: 50px;
+    color: rgb(34, 32, 32);
+}
+html{
+    scroll-behavior: smooth;
+}
